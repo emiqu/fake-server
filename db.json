@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Gino",
+      "lastName": "Masto",
+      "email": "gino@masto.com",
+      "role": "ADMIN",
+      "createdBy": "Me",
+      "createdDate": "2023-03-09",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Frontend",
+      "createdBy": "Me",
+      "createdDate": "2023-03-09",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "status": "Categoria"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Come far finta di creare un database",
+      "abstract": "Come far finta di creare un database",
+      "userId": 1,
+      "createdBy": "Me",
+      "createdDate": "2023-03-09",
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "status": "approved",
+      "categoryId": 1,
+      "text": "testo generico"
+    },
+    {
+      "id": 2,
+      "title": "Titolo 4",
+      "abstract": "Titolo 4",
+      "userId": 1
+    }
+  ]
+}
